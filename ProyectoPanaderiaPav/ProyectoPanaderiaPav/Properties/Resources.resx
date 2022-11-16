@@ -161,7 +161,7 @@
     <value>..\Resources\carritoIcono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StringConexion" xml:space="preserve">
-    <value>Data Source=LAPTOP-1AFECG83\SQLEXPRESS;Initial Catalog=PanJustUs;Integrated Security=True</value>
+    <value>Data Source=DESKTOP-4NE1LLV\SQLEXPRESS;Initial Catalog=JustPan;Integrated Security=True</value>
     <comment>Conexion con mi BD</comment>
   </data>
   <data name="4544854_business_comerce_delivery_shop_truck_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">

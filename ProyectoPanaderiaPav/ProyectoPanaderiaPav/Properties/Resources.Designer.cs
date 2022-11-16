@@ -381,7 +381,7 @@ namespace ProyectoPanaderiaPav.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=LAPTOP-1AFECG83\SQLEXPRESS;Initial Catalog=PanJustUs;Integrated Security=True.
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-4NE1LLV\SQLEXPRESS;Initial Catalog=JustPan;Integrated Security=True.
         /// </summary>
         internal static string StringConexion {
             get {
