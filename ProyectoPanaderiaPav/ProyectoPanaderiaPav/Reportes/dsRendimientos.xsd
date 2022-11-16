@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRendimientos" targetNamespace="http://tempuri.org/dsRendimientos.xsd" xmlns:mstns="http://tempuri.org/dsRendimientos.xsd" xmlns="http://tempuri.org/dsRendimientos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRendimientos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRendimientos" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRendimientos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRendimientos" msprop:Generator_RowClassName="dtRendimientosRow" msprop:Generator_RowEvHandlerName="dtRendimientosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRendimientosRowDeleted" msprop:Generator_RowDeletingName="dtRendimientosRowDeleting" msprop:Generator_RowEvArgName="dtRendimientosRowChangeEvent" msprop:Generator_TablePropName="dtRendimientos" msprop:Generator_RowChangedName="dtRendimientosRowChanged" msprop:Generator_UserTableName="dtRendimientos" msprop:Generator_RowChangingName="dtRendimientosRowChanging" msprop:Generator_TableClassName="dtRendimientosDataTable" msprop:Generator_TableVarName="tabledtRendimientos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="mes" msprop:Generator_UserColumnName="mes" msprop:Generator_ColumnPropNameInTable="mesColumn" msprop:Generator_ColumnPropNameInRow="mes" msprop:Generator_ColumnVarNameInTable="columnmes" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

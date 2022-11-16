@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDescuentos" targetNamespace="http://tempuri.org/dsDescuentos.xsd" xmlns:mstns="http://tempuri.org/dsDescuentos.xsd" xmlns="http://tempuri.org/dsDescuentos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDescuentos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDescuentos" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDescuentos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDescuentos" msprop:Generator_RowClassName="dtDescuentosRow" msprop:Generator_RowEvHandlerName="dtDescuentosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtDescuentosRowDeleted" msprop:Generator_RowDeletingName="dtDescuentosRowDeleting" msprop:Generator_RowEvArgName="dtDescuentosRowChangeEvent" msprop:Generator_TablePropName="dtDescuentos" msprop:Generator_RowChangedName="dtDescuentosRowChanged" msprop:Generator_UserTableName="dtDescuentos" msprop:Generator_RowChangingName="dtDescuentosRowChanging" msprop:Generator_TableClassName="dtDescuentosDataTable" msprop:Generator_TableVarName="tabledtDescuentos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="totalVentasSinDescuento" msprop:Generator_UserColumnName="totalVentasSinDescuento" msprop:Generator_ColumnPropNameInTable="totalVentasSinDescuentoColumn" msprop:Generator_ColumnPropNameInRow="totalVentasSinDescuento" msprop:Generator_ColumnVarNameInTable="columntotalVentasSinDescuento" type="xs:int" minOccurs="0" />
+              <xs:element name="totalVentasConDescuento" msprop:Generator_UserColumnName="totalVentasConDescuento" msprop:Generator_ColumnPropNameInTable="totalVentasConDescuentoColumn" msprop:Generator_ColumnPropNameInRow="totalVentasConDescuento" msprop:Generator_ColumnVarNameInTable="columntotalVentasConDescuento" type="xs:double" minOccurs="0" />
+              <xs:element name="descuentoAplicado" msprop:Generator_UserColumnName="descuentoAplicado" msprop:Generator_ColumnPropNameInTable="descuentoAplicadoColumn" msprop:Generator_ColumnPropNameInRow="descuentoAplicado" msprop:Generator_ColumnVarNameInTable="columndescuentoAplicado" type="xs:double" minOccurs="0" />
+              <xs:element name="fechaVenta" msprop:Generator_ColumnPropNameInRow="fechaVenta" msprop:Generator_ColumnPropNameInTable="fechaVentaColumn" msprop:Generator_ColumnVarNameInTable="columnfechaVenta" msprop:Generator_UserColumnName="fechaVenta" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
